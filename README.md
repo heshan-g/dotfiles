@@ -1,10 +1,18 @@
 # dotfiles
 
-## tmux
+## Create Symlinks
 
-Create a Symlink (presuming this repository is cloned to the home directory):
+It is assumed this repository is in the home directory (`~`). If not, replace `~/dotfiles` with the absolute path to this repository (locally), in the commands below.
+
+### tmux
 
 ```sh
 ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+```
+
+### zshrc
+
+```sh
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
