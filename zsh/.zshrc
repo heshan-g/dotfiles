@@ -8,3 +8,4 @@ alias python="python3"
 PATH="$HOME/bin:$PATH"
 # path+=('$HOME/bin')
 export PATH
+eval $(thefuck --alias)
