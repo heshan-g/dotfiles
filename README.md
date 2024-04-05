@@ -7,7 +7,7 @@ It is assumed this repository is in the home directory (`~`). If not, replace `~
 ### tmux
 
 ```sh
-ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ```
 
 ### zshrc
