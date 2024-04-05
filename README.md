@@ -16,3 +16,8 @@ ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
+### kitty
+
+```sh
+ln -s ~/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
+```
