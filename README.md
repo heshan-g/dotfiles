@@ -2,7 +2,7 @@
 
 ## Create Symlinks
 
-It is assumed this repository is in the home directory (`~`). If not, replace `~/dotfiles` with the absolute path to this repository (locally), in the commands below.
+Clone this repository to the home directory (`~`) for the commands below to work.
 
 ### tmux
 
@@ -20,4 +20,10 @@ ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 
 ```sh
 ln -s ~/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
+```
+
+### i3
+
+```sh
+ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ```
