@@ -4,6 +4,12 @@
 
 Clone this repository to the home directory (`~`) for the commands below to work.
 
+### bashrc
+
+```sh
+ln -s ~/dotfiles/.bashrc ~/.bashrc
+```
+
 ### tmux
 
 ```sh
