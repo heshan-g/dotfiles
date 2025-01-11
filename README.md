@@ -33,3 +33,9 @@ ln -s ~/dotfiles/kitty.conf ~/.config/kitty/kitty.conf
 ```sh
 ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ```
+
+### aerospace (MacOS)
+
+```bash
+ln -s ~/dotfiles/.aerospace.toml ~/.aerospace.toml
+```
