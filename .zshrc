@@ -8,6 +8,11 @@ PATH="$HOME/bin:$PATH"
 # path+=('$HOME/bin')
 export PATH
 
+# Homebrew
+echo >> /Users/heshan/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/heshan/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
