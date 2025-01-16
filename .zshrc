@@ -2,6 +2,8 @@
 alias rmnm="rm -r node_modules"
 alias rmnvim="rm -rf ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim"
 alias python="python3"
+# Quashed
+alias qdev="nvm use 22.11 && yarn dev"
 
 # Local bin
 PATH="$HOME/bin:$PATH"
